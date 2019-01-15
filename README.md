@@ -7,7 +7,7 @@ pod 'ZHActionSheet'
 
 ### 系统样式
 #### 示例图片
-![system](https://github.com/leezhihua/ZHActionSheet/blob/master/ZHActionSheet/system.PNG)
+![system](https://github.com/leezhihua/ZHActionSheet/blob/master/ZHActionSheet/exampic/system.PNG)
 #### 示例代码
 ```
 ZHActionSheet *actionSheet = [[ZHActionSheet alloc] initActionSheetWithTitle:@"ActionSheet" contents:@[@"一",@"二",@"三",@"四",@"五"] cancels:@[@"取消",@"删除"]];
@@ -25,7 +25,7 @@ actionSheet.subtitle = @"System Type";
 ### 默认样式
 
 #### 示例图片
-![default](https://github.com/leezhihua/ZHActionSheet/blob/master/ZHActionSheet/default.PNG)
+![default](https://github.com/leezhihua/ZHActionSheet/blob/master/ZHActionSheet/exampic/default.PNG)
 #### 示例代码
 ```
 ZHActionSheet *actionSheet = [[ZHActionSheet alloc] initActionSheetWithTitle:@"ActionSheet" contents:@[@"一",@"二",@"三",@"四",@"五"] cancels:@[@"取消",@"删除"]];
@@ -48,11 +48,11 @@ actionSheet.clickedCancle = ^(ZHActionSheet *actionSheet, NSUInteger index) {
 #### 示例图片
 1.竖屏
 
-![custi=om](https://github.com/leezhihua/ZHActionSheet/blob/master/ZHActionSheet/custom.PNG)
+![custi=om](https://github.com/leezhihua/ZHActionSheet/blob/master/ZHActionSheet/exampic/custom.PNG)
 
 2.横屏
 
-![custi=om](https://github.com/leezhihua/ZHActionSheet/blob/master/ZHActionSheet/custom_%20landscape.PNG)
+![custi=om](https://github.com/leezhihua/ZHActionSheet/blob/master/ZHActionSheet/exampic/custom_%20landscape.PNG)
 #### 示例代码
 ```
 ZHActionSheet *actionSheet = [ZHActionSheet actionSheetWithTitle:nil contents:self.dataSource cancels:@[@"取消"]];
