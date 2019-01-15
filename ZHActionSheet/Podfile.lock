@@ -1,0 +1,16 @@
+PODS:
+  - ZHActionSheet (1.3.0)
+
+DEPENDENCIES:
+  - ZHActionSheet (from `../`)
+
+EXTERNAL SOURCES:
+  ZHActionSheet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHActionSheet: 6d9cd6b38e0b4f31106800610950862336fcfaf4
+
+PODFILE CHECKSUM: 1fb341e8bc794cbe0e786c747499f853a37ecf86
+
+COCOAPODS: 1.5.3

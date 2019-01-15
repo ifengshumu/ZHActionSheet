@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dyS-NO-qzV"/>
+                        <viewControllerLayoutGuide type="bottom" id="0ev-My-hZZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVT-Wj-7nU">
+                                <rect key="frame" x="46" y="318.5" width="61" height="30"/>
+                                <state key="normal" title="System"/>
+                                <connections>
+                                    <action selector="showSystemActionSheet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ljW-qf-SSc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8K-qs-VXx">
+                                <rect key="frame" x="137" y="318.5" width="61" height="30"/>
+                                <state key="normal" title="Default"/>
+                                <connections>
+                                    <action selector="showDefaultActionSheet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q4r-PO-KdG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhH-Rt-Ers">
+                                <rect key="frame" x="248" y="318.5" width="61" height="30"/>
+                                <state key="normal" title="Custom"/>
+                                <connections>
+                                    <action selector="showCustomActionSheet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vel-3l-Xav"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="j8K-qs-VXx" firstAttribute="leading" secondItem="LVT-Wj-7nU" secondAttribute="trailing" constant="30" id="77r-vq-Yzt"/>
+                            <constraint firstItem="WhH-Rt-Ers" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="E8G-Sc-oct"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WhH-Rt-Ers" secondAttribute="trailing" constant="50" id="FSB-fS-Mkq"/>
+                            <constraint firstItem="LVT-Wj-7nU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VPl-fp-ZsZ"/>
+                            <constraint firstItem="j8K-qs-VXx" firstAttribute="width" secondItem="LVT-Wj-7nU" secondAttribute="width" id="X5b-m4-zUr"/>
+                            <constraint firstItem="WhH-Rt-Ers" firstAttribute="leading" secondItem="j8K-qs-VXx" secondAttribute="trailing" constant="50" id="eYb-mk-LZv"/>
+                            <constraint firstItem="j8K-qs-VXx" firstAttribute="height" secondItem="LVT-Wj-7nU" secondAttribute="height" id="gvj-RU-7bh"/>
+                            <constraint firstItem="j8K-qs-VXx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="h5D-fa-eaR"/>
+                            <constraint firstItem="WhH-Rt-Ers" firstAttribute="height" secondItem="LVT-Wj-7nU" secondAttribute="height" id="rDD-UJ-WGT"/>
+                            <constraint firstItem="LVT-Wj-7nU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="twa-M5-HQT"/>
+                            <constraint firstItem="WhH-Rt-Ers" firstAttribute="width" secondItem="LVT-Wj-7nU" secondAttribute="width" id="wYJ-zu-TwD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

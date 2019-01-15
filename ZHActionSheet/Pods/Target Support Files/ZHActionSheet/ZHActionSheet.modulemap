@@ -1,0 +1,6 @@
+framework module ZHActionSheet {
+  umbrella header "ZHActionSheet-umbrella.h"
+
+  export *
+  module * { export * }
+}
